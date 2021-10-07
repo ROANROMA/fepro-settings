@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "json-server --watch config.json"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
