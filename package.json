@@ -1,0 +1,26 @@
+{
+  "name": "fepro-settings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "json-server --watch config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://AndresOlg@github.com/AndresOlg/fepro-settings.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "SC PROSOFT <administracion@prosoft.com.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresOlg/fepro-settings/issues"
+  },
+  "homepage": "https://github.com/AndresOlg/fepro-settings#readme"
+}
