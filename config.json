@@ -63,6 +63,7 @@
     "unidad_base": "X:\\",
     "dir_base": "N1N2N3N4N5\\EXPORTAR\\",
     "dir_planos": "GENERADOS\\",
-    "dir_logs": "LOGS\\"
+    "dir_logs": "LOGS\\",
+    "dir_json": ""
   }
 }
