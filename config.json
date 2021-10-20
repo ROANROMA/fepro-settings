@@ -44,7 +44,11 @@
         "api_prueba": "https://fevpgentestpro.ekomercio.com/WSCFDIBuilderPlusColombia/WSCFDBuilderPlus.asmx",
         "api_produccion": "",
         "api_nota": "",
-        "tokens": {}
+        "tokens": {},
+        "autenticacion": {
+          "usuario": "ekomercio",
+          "password": "aserri"
+        }
       },
       "Emision": {
         "api_produccion": "",
