@@ -41,7 +41,7 @@
         "tokens": {}
       },
       "Ekomercio": {
-        "api_prueba": "https://fenomgenericotest.ekomercio.com/WSCFDIBuilderPlusColombiaNomina/procesarTextoPlano",
+        "api_prueba": "https://fenomgenericotest.ekomercio.com/WSCFDIBuilderPlusColombiaNomina/WSCFDBuilderPlus.asmx/procesarTextoPlano",
         "api_produccion": "",
         "api_nota": "",
         "tokens": {},
