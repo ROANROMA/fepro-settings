@@ -35,7 +35,7 @@
     },
     "Nomina": {
       "Facse": {
-        "api_prueba": "",
+        "api_prueba": "http://facse.eastus2.cloudapp.azure.com:8092/Nomina/Documento",
         "api_produccion": "",
         "api_nota": "",
         "tokens": {}
