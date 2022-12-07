@@ -1,0 +1,63 @@
+{
+  "Proveedores": {
+    "1": "Facse",
+    "4": "Ekomercio",
+    "5": "Emision"
+  },
+  "Endpoints": {
+    "Facturacion": {
+      "Facse": {
+        "api_prueba": "https://facse.eastus2.cloudapp.azure.com:8092/api/comunicacion/ComprobanteJson",
+        "api_produccion": "https://web.facse.net:444/api/Comunicacion/ComprobanteJson",
+        "api_nota": "",
+        "tokens": {},
+        "puerto": {"prueba": "8092", "prod": " 444"}
+      },
+      "Ekomercio": {
+        "api_prueba": "https://fevpgentestpro.ekomercio.com/WSCFDIBuilderPlusColombia/WSCFDBuilderPlus.asmx/procesarTextoPlano",
+        "api_produccion": "https://fevpprosoftprod.ekomercio.com/WSCFDIBuilderPlusColombia/WSCFDBuilderPlus.asmx/procesarTextoPlano",
+        "api_nota": "",
+        "tokens": {},
+        "autenticacion": {
+          "usuario": "ekomercio",
+          "password": "aserri"
+        }
+      },
+      "Emision": {
+        "api_produccion": "https://endpoint.emision.co/api/v1/service/invoice",
+        "api_prueba": "",
+        "api_nota": "https://endpoint.emision.co/api/v1/service/credit-note",
+        "tokens": {
+          "prueba": "KUfoWUUibXlYqIGHV4oK0Q42nrzyI7hS4cH7Gd6DWaSWMdXbO2RptMq9MYWocOLosRJ400gETri2Mg5w",
+          "produccion": "JAN1hAlXptLXvRNYYNjZOX6wVOFiS2H6fUdFrGcdd7fiQIGoIzmr6pvx6pqN6QKCdhydrQ6iINXIVnKy"
+        }
+      }
+    },
+    "Nomina": {
+      "Facse": {
+        "api_prueba": "http://facse.eastus2.cloudapp.azure.com:8092/Nomina/Documento",
+        "api_produccion": "",
+        "api_nota": "",
+        "tokens": {}
+      },
+      "Ekomercio": {
+        "api_prueba": "https://fenomgenericotest.ekomercio.com/WSCFDIBuilderPlusColombiaNomina/WSCFDBuilderPlus.asmx/procesarTextoPlano",
+        "api_produccion": "https://nominagcolprod.ekomercio.com/WSCFDIBuilderPlusColombia/WSCFDBuilderPlus.asmx/procesarTextoPlano",
+        "api_nota": "",
+        "tokens": {},
+        "autenticacion": {
+          "usuario": "ekomercio",
+          "password": "aserri"
+        }
+      },
+      "Emision": {
+        "api_prueba": "https://api.payroll.emision.co/api/v1/service/payrolls/test",
+        "api_produccion": "https://api.payroll.emision.co/api/v1/service/payrolls/production",
+        "tokens": {
+          "prueba": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMjhhYzc5MDNjN2RjODZkZTQ5MWE1NTkzYzJlYWI3ZTU4NzRjMWU1NjQ1YzFjOWUwYzYwZjc5M2MwMTcyYjNlNTNmZWIwYzU5OGQ2NDY3ZDgiLCJpYXQiOjE2MzcwOTc4NTUuMjY4MDE0LCJuYmYiOjE2MzcwOTc4NTUuMjY4MDE4LCJleHAiOjE2Njg2MzM4NTUuMjU5MDE1LCJzdWIiOiIzMDciLCJzY29wZXMiOltdfQ.BtHA4v0CXwR3nXCQNSpjAEVedAv5waF1mkARChRZDzXi8hp8hdNEmdlLvoMsRk4O1zEa86qP7c6GC9lrPNxD1T9Ut7_aUoQRC38kTvrgC2IlgxSCwypAhrzCljrnnl_23RvSnm_vffIirHqJA7xnLTQExt1yWdifTCgFawiag5HFkd2_U9CNf1ZmHVsKpc0O8nCtXxeZ0lf8adiOuAglLVFLZMb2wg4cGiWteGAjkv4drUKZM0ZkcfeoEyrefxC5c3WRgGjVUhBYUu6vRxt8FkOu8Hsa96pwr-Y-whV3U5jZ3pYoCJA6FQYJIjWns1y4QbYuZjWQqoMTLLPE9Wbpo0sqDhv6SZPByMWWvvvwgerxuEtKdAr_id4LbDKj34vVlaj-WHsay1GKWAAa55V4IiQR02rpm9M9BjdaWWIighc-df3U60UBfGiLCiU5g2ttPTUUWNz4SyuAPozi3hG30dSH9dFZqyx3fR8sqMc8QC5FpJaq0mRo01y3rmsf36fnToPn0PuRrRw9whuKWb92-moUqzFo0GVXJYV7qekxhjl4mieW7it_XauFHDmt3N8Nh3NJJ1n3ePnEbRRCXyubL3Fl3mifGLd2EB6-cZMS6yMSfEZHVcU6wbln1r6meYk2SO6m_580H2aLiYzOf13W_BZrIr1FxEwjeBukKU97_Bo",
+          "produccion": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMjhhYzc5MDNjN2RjODZkZTQ5MWE1NTkzYzJlYWI3ZTU4NzRjMWU1NjQ1YzFjOWUwYzYwZjc5M2MwMTcyYjNlNTNmZWIwYzU5OGQ2NDY3ZDgiLCJpYXQiOjE2MzcwOTc4NTUuMjY4MDE0LCJuYmYiOjE2MzcwOTc4NTUuMjY4MDE4LCJleHAiOjE2Njg2MzM4NTUuMjU5MDE1LCJzdWIiOiIzMDciLCJzY29wZXMiOltdfQ.BtHA4v0CXwR3nXCQNSpjAEVedAv5waF1mkARChRZDzXi8hp8hdNEmdlLvoMsRk4O1zEa86qP7c6GC9lrPNxD1T9Ut7_aUoQRC38kTvrgC2IlgxSCwypAhrzCljrnnl_23RvSnm_vffIirHqJA7xnLTQExt1yWdifTCgFawiag5HFkd2_U9CNf1ZmHVsKpc0O8nCtXxeZ0lf8adiOuAglLVFLZMb2wg4cGiWteGAjkv4drUKZM0ZkcfeoEyrefxC5c3WRgGjVUhBYUu6vRxt8FkOu8Hsa96pwr-Y-whV3U5jZ3pYoCJA6FQYJIjWns1y4QbYuZjWQqoMTLLPE9Wbpo0sqDhv6SZPByMWWvvvwgerxuEtKdAr_id4LbDKj34vVlaj-WHsay1GKWAAa55V4IiQR02rpm9M9BjdaWWIighc-df3U60UBfGiLCiU5g2ttPTUUWNz4SyuAPozi3hG30dSH9dFZqyx3fR8sqMc8QC5FpJaq0mRo01y3rmsf36fnToPn0PuRrRw9whuKWb92-moUqzFo0GVXJYV7qekxhjl4mieW7it_XauFHDmt3N8Nh3NJJ1n3ePnEbRRCXyubL3Fl3mifGLd2EB6-cZMS6yMSfEZHVcU6wbln1r6meYk2SO6m_580H2aLiYzOf13W_BZrIr1FxEwjeBukKU97_Bo"
+        }
+      }
+    }
+  }
+}
